@@ -1,0 +1,104 @@
+main {
+    text-align: center;
+    /* Centraliza o texto no conteúdo do main */
+    
+    gap: 1.45rem;
+    /* Define um espaço de 1.45rem entre os elementos filhos do main */
+
+    justify-content: center;
+    /* Alinha os itens horizontalmente ao centro (utilizando flexbox) */
+
+    align-items: center;
+    /* Alinha os itens verticalmente ao centro (utilizando flexbox) */
+
+    display: flex;
+    /* Aplica o modelo de layout flexbox para os elementos filhos do main */
+    flex-direction: column;
+}
+
+.container {
+    background-color: #56c98d;
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+h1 {
+    color: rgb(68, 255, 0);
+    /* Define a cor do texto do h1 como azul */
+
+    font-size: 3.0rem;
+    /* Define o tamanho da fonte como 3.5rem, um valor bastante grande */
+
+    font-weight: bold;
+    /* Define o peso da fonte como negrito */
+
+    margin: 0;
+    /* Remove as margens externas do h1 */
+
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    /* Adiciona uma sombra de texto com deslocamento de 2px para a direita e para baixo, e com um leve desfoque */
+    padding-bottom: 2rem;
+    transition: all 0.3s ease;
+    /* Aplica uma transição suave de 0.3 segundos para todas as mudanças de estilo */
+
+
+    &:hover {
+        color: red;
+        /* Muda a cor do texto para vermelho quando o mouse passa sobre o h1 */
+
+        transform: scale(1.1);
+        /* Aumenta o tamanho do h1 em 10% ao passar o mouse sobre ele */
+    }
+
+}
+label{
+    font-size: 0.8rem;
+    /* Define o tamanho da fonte do label como 1.8rem */
+    text-transform: uppercase;
+    font-size: bold;
+    margin-bottom: 0.5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+button:hover{
+    background-color: #02ee29;
+    color: white;
+    /* Muda a cor do botão para azul e o texto para branco quando o mouse passa sobre ele */
+    border-radius: 12px;
+    padding: 2px 5px;
+    tex
+}
+.entrada {
+    
+    height: 3rem;
+    /* Define a altura do campo de entrada como 3rem */    
+    border: none;
+    /* Remove a borda padrão do campo de entrada */
+
+    border-radius: 5px;
+    /* Define bordas arredondadas com raio de 5px no campo de entrada */
+
+    outline: none;
+    /* Remove o contorno do campo de entrada quando ele está em foco (selecionado) */
+
+    font-size: 1.6rem;
+    /* Define o tamanho da fonte dentro do campo de entrada como 1.6rem */
+
+    transition: all 0.3s ease;
+    /* Aplica uma transição suave de 0.3 segundos para todas as mudanças de estilo no campo de entrada */
+    flex: block;
+
+    &:hover {
+        transform: scale(1.05);
+        /* Aumenta o tamanho do campo de entrada em 5% ao passar o mouse sobre ele */
+    }
+}
+#rest{
+    width: 260px;
+    height: 80px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 3px 2px 6px black;
+    padding: 5px;
+    color: #ccc;
+    font-size: larger;
+}
